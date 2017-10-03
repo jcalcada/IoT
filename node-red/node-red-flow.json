@@ -1,0 +1,166 @@
+[
+    {
+        "id": "763ce39d.6e96dc",
+        "type": "ibmiot in",
+        "authentication": "boundService",
+        "apiKey": "",
+        "inputType": "evt",
+        "deviceId": "",
+        "applicationId": "",
+        "deviceType": "",
+        "eventType": "gyro",
+        "commandType": "",
+        "format": "",
+        "name": "Gyro Event",
+        "service": "registered",
+        "allDevices": true,
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allEvents": false,
+        "allCommands": "",
+        "allFormats": true,
+        "x": 234,
+        "y": 229,
+        "z": "12aaadfa.4cffe2",
+        "wires": [
+            [
+                "b7d9495b.9c57a8"
+            ]
+        ]
+    },
+    {
+        "id": "b7d9495b.9c57a8",
+        "type": "debug",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "false",
+        "x": 470,
+        "y": 229,
+        "z": "12aaadfa.4cffe2",
+        "wires": []
+    },
+    {
+        "id": "df84eeed.b8ce4",
+        "type": "ibmiot in",
+        "authentication": "boundService",
+        "apiKey": "",
+        "inputType": "evt",
+        "deviceId": "",
+        "applicationId": "",
+        "deviceType": "",
+        "eventType": "accel",
+        "commandType": "",
+        "format": "",
+        "name": "Accel Event",
+        "service": "registered",
+        "allDevices": true,
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allEvents": "",
+        "allCommands": "",
+        "allFormats": true,
+        "x": 233,
+        "y": 310,
+        "z": "12aaadfa.4cffe2",
+        "wires": [
+            [
+                "5bbeafa7.5339a8"
+            ]
+        ]
+    },
+    {
+        "id": "4a4a21a7.133e78",
+        "type": "ibmiot in",
+        "authentication": "boundService",
+        "apiKey": "",
+        "inputType": "evt",
+        "deviceId": "",
+        "applicationId": "",
+        "deviceType": "",
+        "eventType": "mag",
+        "commandType": "",
+        "format": "",
+        "name": "Mag Event",
+        "service": "registered",
+        "allDevices": true,
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allEvents": "",
+        "allCommands": "",
+        "allFormats": true,
+        "x": 236,
+        "y": 380,
+        "z": "12aaadfa.4cffe2",
+        "wires": [
+            [
+                "7ccc376c.59c5d8"
+            ]
+        ]
+    },
+    {
+        "id": "5fdd0254.e822fc",
+        "type": "ibmiot in",
+        "authentication": "boundService",
+        "apiKey": "",
+        "inputType": "evt",
+        "deviceId": "",
+        "applicationId": "",
+        "deviceType": "",
+        "eventType": "air",
+        "commandType": "",
+        "format": "",
+        "name": "Air Event",
+        "service": "registered",
+        "allDevices": true,
+        "allApplications": "",
+        "allDeviceTypes": true,
+        "allEvents": "",
+        "allCommands": "",
+        "allFormats": true,
+        "x": 237,
+        "y": 443,
+        "z": "12aaadfa.4cffe2",
+        "wires": [
+            [
+                "a77ba802.d07808"
+            ]
+        ]
+    },
+    {
+        "id": "5bbeafa7.5339a8",
+        "type": "debug",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "false",
+        "x": 470,
+        "y": 310,
+        "z": "12aaadfa.4cffe2",
+        "wires": []
+    },
+    {
+        "id": "7ccc376c.59c5d8",
+        "type": "debug",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "false",
+        "x": 470,
+        "y": 381,
+        "z": "12aaadfa.4cffe2",
+        "wires": []
+    },
+    {
+        "id": "a77ba802.d07808",
+        "type": "debug",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "false",
+        "x": 470,
+        "y": 442,
+        "z": "12aaadfa.4cffe2",
+        "wires": []
+    }
+]
